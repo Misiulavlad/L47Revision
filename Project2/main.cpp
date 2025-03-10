@@ -15,7 +15,7 @@ int main() {
         }
         array[i++] = value;
     }
-    cout << "Sum of not zeroes number is: " << sum_of_dont_zero(array, size);
+    cout << "The arithmetic mean of the non-zero elements of the vector is : " << sum_of_dont_zero(array, size);
     delete[] array;
 	return 0;
 }
